@@ -11,8 +11,5 @@ public abstract class ActivityBuildersModule {
     abstract AuthActivity contributeAuthActivity();  // this could be literally anything like line bellow
     //abstract AuthActivity ytgrfdeswaq();
 
-    @Provides
-    static String someString(){
-        return " this is a test string";
-    }
+
 }

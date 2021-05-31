@@ -8,7 +8,8 @@ import dagger.android.ContributesAndroidInjector;
 @Module
 public abstract class ActivityBuildersModule {
     @ContributesAndroidInjector
-    abstract AuthActivity contributeAuthActivity();  // this could be literally anything like line bellow
+    abstract AuthActivity contributeAuthActivity();  //The name is convention,
+    // means this could be literally anything like line bellow
     //abstract AuthActivity ytgrfdeswaq();
 
 

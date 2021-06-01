@@ -1,13 +1,16 @@
 package com.nicootech.daggerexcercise.di;
 
-import com.nicootech.daggerexcercise.AuthActivity;
+import com.nicootech.daggerexcercise.di.auth.AuthViewModelsModule;
+import com.nicootech.daggerexcercise.ui.auth.AuthActivity;
+
 import dagger.Module;
-import dagger.Provides;
 import dagger.android.ContributesAndroidInjector;
 
 @Module
 public abstract class ActivityBuildersModule {
-    @ContributesAndroidInjector
+    @ContributesAndroidInjector(
+            modules = {AuthViewModelsModule.class}
+    )
     abstract AuthActivity contributeAuthActivity();  //The name is convention,
     // means this could be literally anything like line bellow
     //abstract AuthActivity ytgrfdeswaq();

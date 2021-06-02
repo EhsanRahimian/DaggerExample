@@ -3,6 +3,7 @@ package com.nicootech.daggerexcercise.di;
 import android.app.Application;
 
 import com.nicootech.daggerexcercise.BaseApplication;
+import com.nicootech.daggerexcercise.SessionManager;
 
 import javax.inject.Singleton;
 
@@ -22,6 +23,9 @@ import dagger.android.support.AndroidSupportInjectionModule;
         })
 
 public interface AppComponent extends AndroidInjector<BaseApplication> {
+
+    SessionManager sessionManager();
+
     @Component.Builder
     interface Builder{
 

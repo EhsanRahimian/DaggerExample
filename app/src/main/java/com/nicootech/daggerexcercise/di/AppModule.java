@@ -7,15 +7,27 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.RequestManager;
 import com.bumptech.glide.request.RequestOptions;
 import com.nicootech.daggerexcercise.R;
+import com.nicootech.daggerexcercise.util.Constants;
 
 import javax.inject.Singleton;
 
 import androidx.core.content.ContextCompat;
 import dagger.Module;
 import dagger.Provides;
+import retrofit2.Retrofit;
+import retrofit2.converter.gson.GsonConverterFactory;
 
 @Module
 public class AppModule {
+
+    @Singleton
+    @Provides
+    static Retrofit provideRetrofitInstance(){
+        return new Retrofit.Builder()
+                .baseUrl(Constants.BASE_URL)
+                .addConverterFactory(GsonConverterFactory.create())
+                .build();
+    }
 
     @Singleton // it means we scope these dependencies to the @Singleton scope
     @Provides

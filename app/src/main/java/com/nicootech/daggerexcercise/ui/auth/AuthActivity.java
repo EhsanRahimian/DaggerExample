@@ -52,7 +52,7 @@ public class AuthActivity extends DaggerAppCompatActivity implements View.OnClic
 
         findViewById(R.id.login_button).setOnClickListener(this);
 
-        viewModel = ViewModelProviders.of(this, providerFactory).get(AuthViewModel.class);
+        viewModel = new ViewModelProvider(this, providerFactory).get(AuthViewModel.class);
 
         setLogo();
 

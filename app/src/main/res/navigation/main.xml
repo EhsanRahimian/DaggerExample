@@ -3,19 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    app:startDestination="@id/profileScreen">
+    app:startDestination="@+id/profileScreen">
 
 
     <fragment
         android:id="@+id/profileScreen"
         android:name="com.nicootech.daggerexcercise.ui.main.profile.ProfileFragment"
-        android:label="profile"
+        android:label="@string/profile"
         tools:layout="@layout/fragment_profile"/>
 
     <fragment
         android:id="@+id/postsScreen"
         android:name="com.nicootech.daggerexcercise.ui.main.posts.PostsFragment"
-        android:label="posts"
+        android:label="@string/posts"
         tools:layout="@layout/fragment_posts"/>
 
 

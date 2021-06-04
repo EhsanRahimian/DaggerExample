@@ -3,4 +3,9 @@
     <string name="login">Login</string>
     <string name="user_id">User id</string>
     <string name="logout">logout</string>
+    <string name="posts">Posts</string>
+    <string name="profile">Profile</string>
+
+    <string name="fragment_profile">Profile</string>
+    <string name="fragment_posts">Posts</string>
 </resources>

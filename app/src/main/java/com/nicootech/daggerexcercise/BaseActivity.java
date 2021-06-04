@@ -4,7 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 
-import com.nicootech.daggerexcercise.di.models.User;
+import com.nicootech.daggerexcercise.models.User;
 import com.nicootech.daggerexcercise.ui.auth.AuthActivity;
 import com.nicootech.daggerexcercise.ui.auth.AuthResource;
 

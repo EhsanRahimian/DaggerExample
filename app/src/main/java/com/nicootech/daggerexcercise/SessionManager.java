@@ -2,7 +2,7 @@ package com.nicootech.daggerexcercise;
 
 import android.util.Log;
 
-import com.nicootech.daggerexcercise.di.models.User;
+import com.nicootech.daggerexcercise.models.User;
 import com.nicootech.daggerexcercise.ui.auth.AuthResource;
 
 import javax.inject.Inject;

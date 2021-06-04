@@ -1,4 +1,4 @@
-package com.nicootech.daggerexcercise.di.models;
+package com.nicootech.daggerexcercise.models;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

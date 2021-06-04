@@ -3,19 +3,15 @@ package com.nicootech.daggerexcercise.ui.auth;
 import android.util.Log;
 
 import com.nicootech.daggerexcercise.SessionManager;
-import com.nicootech.daggerexcercise.di.models.User;
+import com.nicootech.daggerexcercise.models.User;
 import com.nicootech.daggerexcercise.network.auth.AuthApi;
 
 import javax.inject.Inject;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.LiveDataReactiveStreams;
-import androidx.lifecycle.MediatorLiveData;
-import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModel;
-import io.reactivex.Scheduler;
 import io.reactivex.annotations.NonNull;
-import io.reactivex.disposables.Disposable;
 import io.reactivex.functions.Function;
 import io.reactivex.schedulers.Schedulers;
 

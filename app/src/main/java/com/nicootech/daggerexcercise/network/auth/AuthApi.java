@@ -1,6 +1,6 @@
 package com.nicootech.daggerexcercise.network.auth;
 
-import com.nicootech.daggerexcercise.di.models.User;
+import com.nicootech.daggerexcercise.models.User;
 
 import io.reactivex.Flowable;
 import retrofit2.http.GET;

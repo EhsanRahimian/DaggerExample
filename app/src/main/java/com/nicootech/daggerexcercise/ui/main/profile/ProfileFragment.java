@@ -6,17 +6,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.nicootech.daggerexcercise.R;
-import com.nicootech.daggerexcercise.di.models.User;
+import com.nicootech.daggerexcercise.models.User;
 import com.nicootech.daggerexcercise.ui.auth.AuthResource;
-import com.nicootech.daggerexcercise.ui.main.MainActivity;
 import com.nicootech.daggerexcercise.viewmodels.ViewModelProviderFactory;
 
 import javax.inject.Inject;
 
-import androidx.annotation.MainThread;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.lifecycle.Observer;

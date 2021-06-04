@@ -2,7 +2,6 @@ package com.nicootech.daggerexcercise.ui.auth;
 
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
-import androidx.lifecycle.ViewModelProviders;
 import dagger.android.support.DaggerAppCompatActivity;
 
 import android.content.Intent;
@@ -18,7 +17,7 @@ import android.widget.Toast;
 
 import com.bumptech.glide.RequestManager;
 import com.nicootech.daggerexcercise.R;
-import com.nicootech.daggerexcercise.di.models.User;
+import com.nicootech.daggerexcercise.models.User;
 import com.nicootech.daggerexcercise.ui.main.MainActivity;
 import com.nicootech.daggerexcercise.viewmodels.ViewModelProviderFactory;
 
